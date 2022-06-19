@@ -73,6 +73,7 @@ class BaseViewController: UIViewController  {
     func logout() {
         let dialogMessage = UIAlertController(title: "Confirm", message: "Are you sure you want to Logout?", preferredStyle: .alert)
         let ok = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
+            NewsSession.sharedInstance.deleteUser()
             NewsSession.sharedInstance.user = nil
             let rootVC = LoginViewController()
             self.navigationController?.viewControllers = [rootVC]
