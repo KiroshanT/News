@@ -12,7 +12,7 @@ struct Constants {
     
     struct Security {
         
-        static var api_key = "14192d583e324d88bf6dca1d21b5a791"
+        static var api_key = "5d25d6af854d4fdd8a3a17d53d274d42"
     }
 }
 
