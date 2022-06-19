@@ -94,7 +94,7 @@ class FilterViewController: UIViewController {
         let view = UILabel()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = .white
-        view.text = "business"
+        view.text = "Category"
         view.textColor = .darkGray
         view.textAlignment = .left
         view.font = UIFont.boldSystemFont(ofSize: 15)
